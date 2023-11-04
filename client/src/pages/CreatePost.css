@@ -1,0 +1,47 @@
+.form {
+    width: 60vw;
+    border: 4px solid blue;
+    padding: 15px;
+    margin-top: 30px;
+  
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.elem {
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 20px;
+    text-align: left;
+    width: 90%;
+}
+
+
+
+.input {
+    width: 90%;
+    padding: 12px;
+    font-size: 20px;
+    display: block;
+}
+
+.btn {
+    width: 94%;
+    padding: 12px;
+    /* font-size: 20px; */
+    display: block;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+}
+
+span {
+    color: red;
+    display: block;
+}

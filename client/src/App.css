@@ -1,0 +1,75 @@
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+
+}
+
+
+.post {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border-color: lightgray;
+  border-radius: 10px;
+  box-shadow: rgba(99 ,99 , 99, 0.3) 0px 2px 8px 0px;
+  /* color: white; */
+}
+
+.post .title {
+  flex: 20%;
+  display: grid;
+  place-content: center;
+  background-color: dodgerblue;
+  color: white;
+  border-bottom: 1px solid lightblue;
+}
+
+.post .body {
+  flex: 60%;
+  display: grid;
+  place-content: center;
+}
+
+.footer {
+  flex: 20%;
+  background-color: dodgerblue;
+  color: white;
+  border-bottom: 1px solid  lightblue;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: grid;
+  place-content: center;
+}
+
+.navbar {
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  background-color:  dodgerblue;
+  font-size: 25px;
+
+}
+
+.navbar .item {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar button {
+  color: black;
+  background-color: #fff;
+  padding:5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+}
